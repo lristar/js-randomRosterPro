@@ -1,42 +1,46 @@
-
 /* 双清 */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* 公共样式 */
 /* 版心 */
-.w{
-    width: 1040px;
+.w {
+    width: 1240px;
 }
-.box{
+
+.box {
     /* background-color: pink; */
     position: relative;
     left: 50%;
-    margin-left: -520px;
+    margin-left: -620px;
 }
-li{
+
+li {
     list-style: none;
 }
-body{
+
+body {
     background-color: #ECECEA;
 }
 
 /* top start */
-.top{
+.top {
     height: 360px;
     position: relative;
 }
-.top .bgi{
+
+.top .bgi {
     width: 100%;
     height: 100%;
-    background-image: url("../images/topbgi.png");
     /* 设置背景图片大小 */
-    background-size: 1040px 360px;
+    background-size: 1340px 360px;
     opacity: 0.5;
     position: absolute;
 }
-.top .result{
+
+.top .result {
     width: 100%;
     height: 100%;
     text-align: center;
@@ -44,64 +48,79 @@ body{
     line-height: 360px;
     position: absolute;
 }
+
 /* top end */
 
 /* main start */
-.main{
-    margin-top: 60px;
+.main {
+    margin-top: 200px;
     height: auto;
-    min-height: 300px;
+    min-height: 400px;
     position: relative;
     /* background-color: pink; */
 }
-.main div{
+
+.main div {
     display: inline-block;
 }
 
-    /* roster start */
-.main .roster{
+/* roster start */
+.main .roster {
     position: absolute;
     left: 0;
-    width: 700px;
+    width: 900px;
     /* background-color: #ccc; */
 }
-.main .roster span{
+
+.main .roster span {
     position: absolute;
     top: 25px;
-    width: 10px;
+    width: 20px;
     height: 100px;
     /* background-color: yellow; */
     line-height: 30px;
     margin-left: 80px;
-    font: 700 20px/40px "宋体";
+    font: 30 20px/40px "宋体";
 }
-.main .roster table{
+
+.main .roster table {
     margin-left: 168px;
-    margin-top: 50px;
-    /* background-color: orange; */
+    margin-top: 30px;
 }
-.main .roster tr{
+
+.main .roster tr {
     /* background-color: blue; */
     display: block;
     overflow: hidden;
 }
-.main .roster td{
+
+.main .roster th {
     /* background-color: red; */
     text-align: center;
     float: left;
-    padding: 0 0 15px 12px;
-    font: 400 15px "宋体";
+    padding: 0 0 16px 50px;
+    font: 400 20px "宋体";
 }
-    /* roster end */
 
-    /* choose-box start */  
-.main .choose-box{
+.main .roster td {
+    /* background-color: red; */
+    text-align: center;
+    float: left;
+    padding: 0 0 16px 50px;
+    font: 400 20px "宋体";
+}
+
+/* roster end */
+
+/* choose-box start */
+.main .choose-box {
     position: absolute;
     right: 0;
     width: 300px;
     /* background-color: green; */
 }
-.main .choose-box .btn{
+
+.main .choose-box .btn {
     position: relative;
     top: 20px;
     /* left: 50%;
@@ -112,9 +131,11 @@ body{
     font: 700 20px/40px "宋体";
     outline: none;
 }
+
 .main .choose-box ul {
     margin-top: 45px;
 }
+
 .main .choose-box li {
     float: left;
     width: 10px;
@@ -122,6 +143,20 @@ body{
     line-height: 30px;
     font: 400 15px "宋体";
 }
-    /* choose-box end */
+
+.file_label {
+    width: 100px;
+}
+
+.description {
+    margin-left: 800px;
+    margin-top: 10px;
+    height: auto;
+    min-height: 200px;
+    position: relative;
+    /* background-color: pink; */
+}
+
+/* choose-box end */
 
 /* main end */

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/index.css" />
 </head>
 <body>
+    <script type="text/javascript" src="./js/xlsx.core.min.js"></script>
     <div class="box w">
         
         <div class="top w" id="top">
@@ -32,12 +33,26 @@
                 <ul>
                     <li><input type="radio" name="condition" id="ck1" checked="checked"><br/><br/>随机选取1位</li>
                     <li><input type="radio" name="condition" id="ck2"><br/><br/>随机选取3位</li>
-                    <li><input type="radio" name="condition" id="ck3"><br/><br/>随机选取1行</li>
-                    <li><input type="radio" name="condition" id="ck4"><br/><br/>随机选取1列</li>
+                    <li><input type="radio" name="condition" id="ck3"><br/><br/>随机挑一组</li>
+                    <li><input type="radio" name="condition" id="ck4"><br/><br/>随机每组一位</li>
                 </ul>
             </div>
         </div>
     </div>
+    <div class="description">
+        <div class="file_label">
+            选择名单<input type="file" id="file" name="选择名单">
+              </div>
+        <div>
+          输入文件说明
+        </div>
+        <div>
+          1. 输入的 Excel 每一组一列
+        </div>
+        <div>
+          2. 输入的 Excel 文件中必须包含组名列，该列表头在第一行，表头内容为 第几组或者组的名称
+        </div>
+      </div>
 
     <!-- ==============js区域=============== -->
     <script src="js/common.js"></script>
